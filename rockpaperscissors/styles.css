@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #292c34;
+}
+
+header {
+	background-color: white;
+	padding: 20px;
+}
+
+header > h1 {
+	color: #292c34;
+	text-align: center;
+	font-family: Asap, sans-serif;
+}
+
+.top-line {
+	margin: 20px auto;
+}
+
+.score-board {
+	margin: 20px 1673px;
+	border: 3px solid white;
+	border-radius: 4px;
+	text-align: center;
+	width: 200px;
+	height: 85px;
+	color: white;
+	font-size: 46px;
+	padding: 15px 20px;
+	font-family: Asap, sans-serif;
+	position: absolute;
+}
+
+.times-played {
+	margin: 20px 20px;
+	border: 3px solid white;
+	border-radius: 4px;
+	text-align: center;
+	width: 200px;
+	height: 85px;
+	color: white;
+	font-size: 40px;
+	padding: 15px 20px;
+	font-family: Asap, sans-serif;
+	position: absolute;
+}
+
+#played-label {
+	position: relative;
+	top: -23px;
+	font-size: 17px;
+	font-family: Asap, sans-serif;
+	padding: 0px 0px;
+	text-align: center;
+}
+
+.badge {
+	background: #e25840;
+	color: white;
+	font-size: 14px;
+	padding: 2px 10px;
+	font-family: Asap, sans-serif;
+}
+
+#user-label {
+	position: absolute;
+	top: 30;
+	left: -25px;
+	font-family: Asap, sans-serif;
+}
+
+#computer-label {
+	position: absolute;
+	top: 30;
+	right: -30px;
+	font-family: Asap, sans-serif;
+}
+
+.result {
+	font-size: 40px;
+	color: white;
+}
+
+.result > p {
+	text-align: center;
+	font-weight: bold;
+	font-family: Asap, sans-serif;
+}
+
+.choices {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.choice {
+	border: 4px solid white;
+	border-radius: 50%;
+	margin: 0 20px;
+	padding: 10px;
+	display: inline-block;
+	transition: all 0.3s ease-in;
+}
+
+.choice:hover {
+	cursor: pointer;
+	background: blue;
+}
+
+#action-message {
+	text-align: center;
+	color: white;
+	font-family: Asap, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+#my-timer {
+	margin-left: auto;
+	margin-top: auto;
+	font-size: 100px;
+	color: white;
+	font-family: Asap, sans-serif;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	margin: 0 auto;
+}
+
+.green-glow {
+	border: 4px solid #4dcc7d;
+	box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow {
+	border: 4px solid #fc121b;
+	box-shadow: 0 0 10px #d01115;
+}
+
+.yellow-glow {
+	border: 4px solid #e7ff61;
+	box-shadow: 0 0 10px #d0eb36;
+}
